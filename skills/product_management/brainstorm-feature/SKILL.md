@@ -13,6 +13,10 @@ Interview me persistently but economically. Prioritize the questions most likely
 
 Ask one question at a time, waiting for my answer before continuing.
 
+Always number each question you ask (e.g. **Q1.**, **Q2.**, ...) so I can reference them easily.
+
+When presenting multiple options or directions, always letter them — (a), (b), (c), etc. — so I can respond by letter.
+
 For each question, provide:
 1. The question
 2. Your recommended answer or working hypothesis
@@ -45,10 +49,10 @@ Once the idea is clear, do a quick scan of any relevant existing code or docs if
 - Propose precise canonical terms when language is vague or overloaded.
 - Discuss concrete scenarios. Invent scenarios that probe edge cases and force clear boundaries between concepts.
 - Cross-reference with code or docs when available. Example: “Your code cancels entire Orders, but you just said partial cancellation is possible. Which is right?”
-- Point out inconsistent flows. If a proposed flow conflicts with an earlier decision, existing documentation, or the codebase, surface it immediately. Example: “You said the user can add new users from the Campaign screen, but only the Users screen has names. How do you want to handle that?” Provide options and a recommendation.
+- Point out inconsistent flows. If a proposed flow conflicts with an earlier decision, existing documentation, or the codebase, surface it immediately. Example: “You said the user can add new users from the Campaign screen, but only the Users screen has names. How do you want to handle that? (a) Keep user creation on the Users screen only, (b) duplicate the form on Campaign, (c) open a modal that routes to Users. I'd recommend (a).” Always letter the options.
 - Offer simplifications whenever they would reduce edge cases or complexity. Example: “If you require an ID at startup, we do not need empty-state handling here. I recommend making this required. Do you agree?”
 - Prefer simpler concepts, fewer states, fewer exceptions, and clearer ownership boundaries.
-- If the user asks for divergent ideas, first generate a small set of candidate directions, then ask one high-leverage question about which direction to explore. Otherwise, default to interview-first.
+- If the user asks for divergent ideas, first generate a small set of candidate directions lettered (a), (b), (c), ..., then ask one high-leverage question about which direction to explore. Otherwise, default to interview-first.
 
 ## Knowing When You're Done
 
