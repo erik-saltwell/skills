@@ -9,7 +9,7 @@ description: Brainstorming session that challenges a product or feature idea, sh
 
 Help me think through a product, feature, or design idea by acting as a rigorous co-creator.
 
-Interview me persistently but economically. Prioritize the questions most likely to change the design, expose hidden assumptions, reduce complexity, or clarify the problem.
+Interview me persistently, walking down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.. Prioritize the questions most likely to change the design, expose hidden assumptions, reduce complexity, or clarify the problem.
 
 Ask one question at a time, waiting for my answer before continuing.
 
@@ -56,18 +56,7 @@ Once the idea is clear, do a quick scan of any relevant existing code or docs if
 
 ## Knowing When You're Done
 
-Track three dimensions as the conversation progresses:
-
-1. **Problem / user pain** — who hurts, what is broken, what is missing, and why it matters.
-2. **Solution space** — possible approaches, tradeoffs, simplifications, constraints, and how the feature could work.
-3. **Non-goals / constraints** — what the feature should not do, what complexity should be avoided, and what boundaries must be respected.
-
-Consider the brainstorm substantially complete when:
-- the core user pain is clear,
-- the main solution shape is clear,
-- major tradeoffs have been surfaced,
-- important contradictions have been resolved or named,
-- remaining questions are lower-leverage than the ones already explored.
+Walk down each branch of the design tree, resolving dependencies between decisions one-by-one. For each question, provide your recommended answer.
 When these conditions are met, say:
 
 > I think we've covered the main angles on [problem framing] and [solution approaches]. Anything else you want to dig into?
