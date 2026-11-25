@@ -1,0 +1,29 @@
+[build-system]
+requires = ["hatchling>=1.27"]
+build-backend = "hatchling.build"
+
+[project]
+name = "textual-mcp"
+version = "0.1.0"
+description = "Drive and inspect Textual applications through MCP, with reproducible screenshot evidence."
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+  "mcp>=1.30,<2",
+  "textual>=8.2.8,<9",
+  "rich>=15,<16",
+  "cairosvg>=2.9,<3",
+]
+
+[project.scripts]
+textual-mcp = "textual_mcp.server:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/textual_mcp"]
+
+[tool.ruff]
+target-version = "py311"
+line-length = 100
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "UP", "B", "ASYNC"]

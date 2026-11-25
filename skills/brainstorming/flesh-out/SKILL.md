@@ -1,9 +1,9 @@
 ---
-name: brainstorm-feature
-description: Brainstorming session that challenges a product or feature idea, sharpens concepts, simplifies the design, and stress-tests assumptions. Use when the user wants to think through an idea, explore a problem space, or generate and test directions for a product feature. No artifacts are produced unless explicitly requested — the goal is a generative conversation that clarifies the user's thinking.
+name: flesh-out
+description: Fleshes out a product or feature idea by challenging assumptions, sharpening concepts, simplifying the design, and stress-testing details. Use when the user wants to flesh out an idea, think through a feature, or explore a product problem in depth. No artifacts are produced unless explicitly requested — the goal is a generative conversation that clarifies the user's thinking.
 ---
 
-# Brainstorm Feature
+# Flesh Out
 
 ## Overview
 
